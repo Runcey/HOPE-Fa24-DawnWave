@@ -5019,50 +5019,6 @@
 			)
 		)
 	)
-	(global_label "MCU_LRCLK"
-		(shape input)
-		(at 109.22 34.29 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "03987567-4a92-4f8d-a103-8af9e0805670")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 95.3491 34.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "MCU_I2S_D"
-		(shape input)
-		(at 109.22 36.83 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "05a2906a-653e-4396-b403-ac8abf0e07dd")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 95.9539 36.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "MCU_SD_SEL"
 		(shape input)
 		(at 185.42 149.86 0)
@@ -5208,28 +5164,6 @@
 		(uuid "33cca14f-3a07-47f5-9251-36e8af34542e")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 183.5839 57.15 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "MCU_BCLK"
-		(shape input)
-		(at 109.22 31.75 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "34e4b53a-26b0-4315-aa82-766e8f17bf04")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 96.3772 31.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7464,70 +7398,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector:TestPoint")
-		(at 109.22 34.29 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "43d5b0ad-949c-4554-a8f7-d94ff6096081")
-		(property "Reference" "TP16"
-			(at 115.57 34.29 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "LRCLK"
-			(at 121.92 34.29 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_D1.5mm"
-			(at 109.22 39.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 109.22 39.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "test point"
-			(at 109.22 34.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "81d6e8f6-36dc-410a-bb42-5deba560fc31")
-		)
-		(instances
-			(project "HOPE-DawnWave-Core"
-				(path "/b8bc6909-42e2-441d-8c23-4bce71b0ba4f"
-					(reference "TP16")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 245.11 33.02 0)
 		(unit 1)
@@ -9007,7 +8877,7 @@
 				)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_D1.5mm"
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
 			(at 109.22 31.75 0)
 			(effects
 				(font
@@ -9224,7 +9094,7 @@
 				)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_D1.5mm"
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
 			(at 109.22 29.21 0)
 			(effects
 				(font
@@ -10592,70 +10462,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector:TestPoint")
-		(at 109.22 36.83 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "ccb79d22-8df2-4541-99ee-86120ad39e75")
-		(property "Reference" "TP17"
-			(at 115.57 36.83 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "I2S_D"
-			(at 121.666 36.83 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_D1.5mm"
-			(at 109.22 41.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 109.22 41.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "test point"
-			(at 109.22 36.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "f11ff1ff-efbb-4461-b30e-010e0f2bd33c")
-		)
-		(instances
-			(project "HOPE-DawnWave-Core"
-				(path "/b8bc6909-42e2-441d-8c23-4bce71b0ba4f"
-					(reference "TP17")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 34.29 68.58 0)
 		(unit 1)
@@ -10912,70 +10718,6 @@
 			(project ""
 				(path "/b8bc6909-42e2-441d-8c23-4bce71b0ba4f"
 					(reference "#PWR013")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:TestPoint")
-		(at 109.22 31.75 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "e703f3d1-64f7-4b2d-93ef-0a720d90e7de")
-		(property "Reference" "TP15"
-			(at 115.57 31.75 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "BCLK"
-			(at 121.412 31.75 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_D1.5mm"
-			(at 109.22 36.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 109.22 36.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "test point"
-			(at 109.22 31.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "21edb900-c958-42b8-b613-bb946da9c108")
-		)
-		(instances
-			(project "HOPE-DawnWave-Core"
-				(path "/b8bc6909-42e2-441d-8c23-4bce71b0ba4f"
-					(reference "TP15")
 					(unit 1)
 				)
 			)
