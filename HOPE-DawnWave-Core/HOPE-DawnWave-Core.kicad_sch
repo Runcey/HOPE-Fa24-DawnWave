@@ -3865,16 +3865,6 @@
 	)
 	(wire
 		(pts
-			(xy 196.85 57.15) (xy 199.39 57.15)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4c67ad9b-e534-4d99-8d84-26882626c998")
-	)
-	(wire
-		(pts
 			(xy 49.53 104.14) (xy 49.53 99.06)
 		)
 		(stroke
@@ -3962,6 +3952,16 @@
 			(type default)
 		)
 		(uuid "62f26d43-e27e-47a7-95ce-6e6bf70d7c30")
+	)
+	(wire
+		(pts
+			(xy 196.85 54.61) (xy 199.39 54.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "646b1317-5454-4752-99bc-c9bd09ccae46")
 	)
 	(wire
 		(pts
@@ -4195,16 +4195,6 @@
 	)
 	(wire
 		(pts
-			(xy 255.27 46.99) (xy 259.08 46.99)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a01efe3b-7b90-473d-99f7-ae3bcab908a9")
-	)
-	(wire
-		(pts
 			(xy 49.53 48.26) (xy 49.53 50.8)
 		)
 		(stroke
@@ -4225,6 +4215,16 @@
 	)
 	(wire
 		(pts
+			(xy 255.27 46.99) (xy 257.81 46.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a6efe582-8165-4e46-b728-0a2d0fe1c6d4")
+	)
+	(wire
+		(pts
 			(xy 106.68 135.89) (xy 109.22 135.89)
 		)
 		(stroke
@@ -4242,6 +4242,16 @@
 			(type default)
 		)
 		(uuid "a97276e8-8e81-42aa-a0ef-8b8c460f73e0")
+	)
+	(wire
+		(pts
+			(xy 255.27 44.45) (xy 257.81 44.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a9c89ed9-5a75-49fc-883d-88770a67dfdb")
 	)
 	(wire
 		(pts
@@ -4455,16 +4465,6 @@
 	)
 	(wire
 		(pts
-			(xy 255.27 44.45) (xy 259.08 44.45)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d9a7502c-5aa5-4d6c-82bb-719f2dfd3bd6")
-	)
-	(wire
-		(pts
 			(xy 57.15 55.88) (xy 66.04 55.88)
 		)
 		(stroke
@@ -4515,13 +4515,13 @@
 	)
 	(wire
 		(pts
-			(xy 196.85 54.61) (xy 199.39 54.61)
+			(xy 196.85 57.15) (xy 199.39 57.15)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "f209a13a-6c48-436d-879a-4b754a69cf67")
+		(uuid "f45d80e6-c2ed-45cb-b382-d5b94018b5b1")
 	)
 	(wire
 		(pts
@@ -5285,7 +5285,7 @@
 	)
 	(global_label "MCU_MISO"
 		(shape input)
-		(at 259.08 46.99 0)
+		(at 257.81 44.45 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -5295,7 +5295,7 @@
 		)
 		(uuid "705a8274-3516-4b74-9a27-989ee1f9c0b6")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 271.6809 46.99 0)
+			(at 270.4109 44.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5527,22 +5527,22 @@
 	)
 	(global_label "MCU_SCLK"
 		(shape input)
-		(at 259.08 44.45 0)
+		(at 196.85 54.61 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left)
+			(justify right)
 		)
 		(uuid "a25771e7-2b26-4d97-a8fe-bb20abbebc0f")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 271.8623 44.45 0)
+			(at 184.0677 54.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 				(hide yes)
 			)
 		)
@@ -5923,22 +5923,22 @@
 	)
 	(global_label "MCU_D{slash}C"
 		(shape input)
-		(at 196.85 54.61 180)
+		(at 257.81 46.99 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right)
+			(justify left)
 		)
 		(uuid "f777d2b0-a608-4a6f-acf4-c12aedf53d3f")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 184.9748 54.61 0)
+			(at 269.6852 46.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 				(hide yes)
 			)
 		)
