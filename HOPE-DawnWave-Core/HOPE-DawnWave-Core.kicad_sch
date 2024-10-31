@@ -3605,16 +3605,6 @@
 	)
 	(wire
 		(pts
-			(xy 255.27 77.47) (xy 259.08 77.47)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0a2a8daf-2cf1-42bf-9ed8-638fe1d5cc03")
-	)
-	(wire
-		(pts
 			(xy 26.67 68.58) (xy 34.29 68.58)
 		)
 		(stroke
@@ -4025,6 +4015,16 @@
 	)
 	(wire
 		(pts
+			(xy 255.27 77.47) (xy 259.08 77.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "728d66fd-a004-4e00-86a8-f12b64dfd7e7")
+	)
+	(wire
+		(pts
 			(xy 161.29 162.56) (xy 161.29 154.94)
 		)
 		(stroke
@@ -4082,16 +4082,6 @@
 			(type default)
 		)
 		(uuid "83388ec8-ef63-413a-a73b-2e357f019f3f")
-	)
-	(wire
-		(pts
-			(xy 255.27 82.55) (xy 259.08 82.55)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "86c0ebe3-e0ef-49b9-a122-a03dc4fdf32a")
 	)
 	(wire
 		(pts
@@ -4442,6 +4432,16 @@
 			(type default)
 		)
 		(uuid "d0b88691-f3cc-4933-9635-585aefdcfb34")
+	)
+	(wire
+		(pts
+			(xy 255.27 82.55) (xy 259.08 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d0dd9fa6-a23a-4862-9dbe-1da66774151a")
 	)
 	(wire
 		(pts
@@ -5087,7 +5087,7 @@
 	)
 	(global_label "MCU_LRCLK"
 		(shape input)
-		(at 259.08 77.47 0)
+		(at 259.08 82.55 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -5097,7 +5097,7 @@
 		)
 		(uuid "2c27d841-fe71-4a1c-85b3-30287db8d0e4")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 272.9509 77.47 0)
+			(at 272.9509 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5153,7 +5153,7 @@
 	)
 	(global_label "MCU_I2S_D"
 		(shape input)
-		(at 259.08 82.55 0)
+		(at 259.08 77.47 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -5163,7 +5163,7 @@
 		)
 		(uuid "33cca14f-3a07-47f5-9251-36e8af34542e")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 272.3461 82.55 0)
+			(at 272.3461 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
