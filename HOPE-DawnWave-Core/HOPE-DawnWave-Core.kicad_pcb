@@ -13251,8 +13251,8 @@
 		(layer "Edge.Cuts")
 		(uuid "ede53f16-5567-479a-833c-9321b9f57349")
 	)
-	(gr_text "LR SELECT"
-		(at 129.032 87.376 0)
+	(gr_text "Mono: L    R"
+		(at 130.7592 87.376 0)
 		(layer "B.SilkS")
 		(uuid "4f8b17b9-d86e-48f8-b426-882b63a00c9a")
 		(effects
@@ -13263,8 +13263,8 @@
 			(justify mirror)
 		)
 	)
-	(gr_text "MONO SELECT"
-		(at 129.47 91.567 0)
+	(gr_text "Bridge for L+R"
+		(at 136.2456 93.472 0)
 		(layer "B.SilkS")
 		(uuid "79b110db-3c47-470d-b2e9-29737c7ada3e")
 		(effects
@@ -13275,8 +13275,8 @@
 			(justify mirror)
 		)
 	)
-	(gr_text "GAIN SELECT"
-		(at 129.946 96.0768 0)
+	(gr_text "Gain: 12-9-6 dB"
+		(at 130.9624 96.1644 0)
 		(layer "B.SilkS")
 		(uuid "8fb07546-9091-4ba8-9aec-17fc0d068700")
 		(effects
