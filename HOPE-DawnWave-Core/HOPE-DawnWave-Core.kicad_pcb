@@ -13020,8 +13020,8 @@
 		(uuid "b779ea7c-8176-4592-bcf0-3fa57144d139")
 	)
 	(gr_line
-		(start 132.08 99.0626)
-		(end 132.08 91.5061)
+		(start 133.7564 99.02825)
+		(end 133.7564 91.47175)
 		(stroke
 			(width 0.1)
 			(type default)
@@ -13370,7 +13370,7 @@
 			)
 		)
 	)
-	(gr_text "GPIO#"
+	(gr_text "GPIO21"
 		(at 130.048 95.504 0)
 		(layer "F.SilkS")
 		(uuid "4762bb97-93ec-4592-9ba5-0c92dcdf734c")
@@ -13572,7 +13572,7 @@
 		)
 	)
 	(gr_text "NEOPIXEL"
-		(at 133.096 95.25 90)
+		(at 132.9436 95.25 90)
 		(layer "F.SilkS")
 		(uuid "e5f3c0ac-4c91-47e8-8fe0-da3ed1e51095")
 		(effects
@@ -14326,6 +14326,15 @@
 		(uuid "23183e23-c601-426e-853c-48e1870289c2")
 	)
 	(via
+		(at 130.175 67.945)
+		(size 0.6096)
+		(drill 0.3048)
+		(layers "F.Cu" "B.Cu")
+		(free yes)
+		(net 3)
+		(uuid "23a554e4-c426-4486-9444-af4dc1242942")
+	)
+	(via
 		(at 144.78 101.6)
 		(size 0.6096)
 		(drill 0.3048)
@@ -14542,6 +14551,15 @@
 		(uuid "504070e6-e5f6-482b-bae2-170987af0635")
 	)
 	(via
+		(at 167.64 67.945)
+		(size 0.6096)
+		(drill 0.3048)
+		(layers "F.Cu" "B.Cu")
+		(free yes)
+		(net 3)
+		(uuid "507fb6d9-b9f3-4cd7-bdae-e15b8497b5a4")
+	)
+	(via
 		(at 164.846 77.724)
 		(size 0.6096)
 		(drill 0.3048)
@@ -14612,6 +14630,15 @@
 		(free yes)
 		(net 3)
 		(uuid "61c11b10-191e-4ed6-94d4-4b04dd05e541")
+	)
+	(via
+		(at 165.1 67.945)
+		(size 0.6096)
+		(drill 0.3048)
+		(layers "F.Cu" "B.Cu")
+		(free yes)
+		(net 3)
+		(uuid "61e15893-8535-4324-a8af-85e1c00fca55")
 	)
 	(via
 		(at 144.78 73.914)
@@ -15296,6 +15323,15 @@
 		(free yes)
 		(net 3)
 		(uuid "ec0502b5-ff0f-4a35-b467-5a19e479caea")
+	)
+	(via
+		(at 127 67.945)
+		(size 0.6096)
+		(drill 0.3048)
+		(layers "F.Cu" "B.Cu")
+		(free yes)
+		(net 3)
+		(uuid "f1d360c5-9668-48d3-9351-de6c36085159")
 	)
 	(via
 		(at 127 71.12)
