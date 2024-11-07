@@ -1610,6 +1610,12 @@
 		(uuid "5265b378-a032-4e1d-afd0-a5ce598ca1a1")
 	)
 	(junction
+		(at 119.38 116.84)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "6c471c0c-0996-4706-82eb-bd691e3b4094")
+	)
+	(junction
 		(at 125.73 91.44)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1749,7 +1755,7 @@
 	)
 	(wire
 		(pts
-			(xy 124.46 111.76) (xy 127 111.76)
+			(xy 127 116.84) (xy 129.54 116.84)
 		)
 		(stroke
 			(width 0)
@@ -1769,7 +1775,7 @@
 	)
 	(wire
 		(pts
-			(xy 111.76 111.76) (xy 114.3 111.76)
+			(xy 109.22 116.84) (xy 111.76 116.84)
 		)
 		(stroke
 			(width 0)
@@ -1779,7 +1785,7 @@
 	)
 	(wire
 		(pts
-			(xy 119.38 106.68) (xy 119.38 107.95)
+			(xy 119.38 106.68) (xy 119.38 116.84)
 		)
 		(stroke
 			(width 0)
@@ -2319,7 +2325,7 @@
 	)
 	(symbol
 		(lib_id "power:VBUS")
-		(at 111.76 111.76 0)
+		(at 109.22 116.84 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2327,7 +2333,7 @@
 		(dnp no)
 		(uuid "6cdf658d-f7d7-4dfd-8147-fd07402a926f")
 		(property "Reference" "#PWR02"
-			(at 111.76 115.57 0)
+			(at 109.22 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2336,7 +2342,7 @@
 			)
 		)
 		(property "Value" "VBUS"
-			(at 111.76 107.95 0)
+			(at 109.22 113.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2344,7 +2350,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 111.76 111.76 0)
+			(at 109.22 116.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2353,7 +2359,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 111.76 111.76 0)
+			(at 109.22 116.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2362,7 +2368,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"VBUS\""
-			(at 111.76 111.76 0)
+			(at 109.22 116.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2460,7 +2466,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 127 111.76 0)
+		(at 129.54 116.84 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2468,7 +2474,7 @@
 		(dnp no)
 		(uuid "722ae90c-a21b-48e9-b4d4-45d3a39131f7")
 		(property "Reference" "#PWR04"
-			(at 127 118.11 0)
+			(at 129.54 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2477,7 +2483,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 127 115.824 0)
+			(at 129.54 120.904 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2485,7 +2491,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 127 111.76 0)
+			(at 129.54 116.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2494,7 +2500,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 127 111.76 0)
+			(at 129.54 116.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2503,7 +2509,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 127 111.76 0)
+			(at 129.54 116.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2942,6 +2948,142 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R")
+		(at 115.57 116.84 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "bb7e5c4c-1c95-4c96-be36-5db04c603ebd")
+		(property "Reference" "R12"
+			(at 115.57 110.49 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "0R"
+			(at 115.57 113.03 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder"
+			(at 115.57 118.618 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 115.57 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 115.57 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e7551870-c5e6-4a11-ac71-212f0e5b8bd8")
+		)
+		(pin "2"
+			(uuid "296c4847-539a-4c3d-9726-300ae8a12675")
+		)
+		(instances
+			(project ""
+				(path "/b8bc6909-42e2-441d-8c23-4bce71b0ba4f/01173765-a7e8-4b6a-9749-4cb153e0b2d3"
+					(reference "R12")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 123.19 116.84 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "be6cf8ad-e691-4d33-90d6-6c937ca8d9dc")
+		(property "Reference" "R13"
+			(at 123.19 110.49 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "0R"
+			(at 123.19 113.03 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder"
+			(at 123.19 118.618 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 123.19 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 123.19 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e7551870-c5e6-4a11-ac71-212f0e5b8bd8")
+		)
+		(pin "2"
+			(uuid "296c4847-539a-4c3d-9726-300ae8a12675")
+		)
+		(instances
+			(project ""
+				(path "/b8bc6909-42e2-441d-8c23-4bce71b0ba4f/01173765-a7e8-4b6a-9749-4cb153e0b2d3"
+					(reference "R13")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:+3.3V")
 		(at 95.25 74.93 0)
 		(unit 1)
@@ -3001,83 +3143,6 @@
 			(project "HOPE-DawnWave-Core"
 				(path "/b8bc6909-42e2-441d-8c23-4bce71b0ba4f/01173765-a7e8-4b6a-9749-4cb153e0b2d3"
 					(reference "#PWR030")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Jumper:SolderJumper_3_Open")
-		(at 119.38 111.76 180)
-		(unit 1)
-		(exclude_from_sim yes)
-		(in_bom no)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "cae5487d-b3cf-4ed2-a350-67044e1aa342")
-		(property "Reference" "JP1"
-			(at 119.38 115.57 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GAIN_SEL"
-			(at 119.38 118.11 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Jumper:SolderJumper-3_P2.0mm_Open_TrianglePad1.0x1.5mm"
-			(at 119.38 111.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 119.38 111.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Solder Jumper, 3-pole, open"
-			(at 119.38 111.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "c7a3e7d2-e21a-4a50-ba8a-b498386dd973")
-		)
-		(pin "3"
-			(uuid "51643c84-495a-4aad-88a4-93faddfbed21")
-		)
-		(pin "2"
-			(uuid "523f6153-6607-4868-89b4-8c8f3b961278")
-		)
-		(instances
-			(project "HOPE-DawnWave-Speaker-Amp"
-				(path "/9b63a486-35b2-4834-a35d-68d229baf124"
-					(reference "JP1")
-					(unit 1)
-				)
-			)
-			(project "HOPE-DawnWave-Speaker-Amp"
-				(path "/b8bc6909-42e2-441d-8c23-4bce71b0ba4f/01173765-a7e8-4b6a-9749-4cb153e0b2d3"
-					(reference "JP4")
 					(unit 1)
 				)
 			)
