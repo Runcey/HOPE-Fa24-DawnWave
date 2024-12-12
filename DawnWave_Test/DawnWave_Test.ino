@@ -23,8 +23,8 @@
 #include <WiFi.h>
 #include "time.h"
 
-const char* ssid     = "DawnWave";
-const char* password = "1234";
+const char* ssid     = "Berkeley-IoT";
+const char* password = "--REDACTED--";
 
 // For the Adafruit shield, these are the default.
 #define TFT_DC 15
@@ -79,12 +79,26 @@ void setup() {
   bme.setIIRFilterSize(BME680_FILTER_SIZE_3);
   bme.setGasHeater(320, 150); // 320*C for 150 ms
 
-  // Setup ESP32 as a Wifi access point
-  //WiFi.softAP(ssid, password);
-  setenv("TZ", "PST8PDT,M3.2.0,M11.1.0",1);
-  tzset();
-  // configTime( -3600, 1*3600, "time.nist.gov", "0.pool.ntp.org", "1.pool.ntp.org" );
-  configTime( 0, 0, "time.nist.gov", "0.pool.ntp.org", "1.pool.ntp.org" );
+  // Connect to Wi-Fi
+  Serial.print("Connecting to ");
+  Serial.println(ssid);
+  WiFi.begin(ssid, password);
+  while (WiFi.status() != WL_CONNECTED) {
+    delay(500);
+    Serial.print(".");
+  }
+  Serial.println("");
+  Serial.println("WiFi connected.");
+  
+  // Init time
+  // setenv("TZ","PST8PDT,M3.2.0,M11.1.0",1);  
+  // tzset();
+  configTime(-8*3600, 0, "pool.ntp.org"); 
+
+  // //disconnect WiFi as it's no longer needed
+  // WiFi.disconnect(true);
+  // WiFi.mode(WIFI_OFF);
+  // Serial.println("WiFi disconnected.");
 
 
   ts.begin();
@@ -112,7 +126,7 @@ void setup() {
 
 
 void loop(void) {
-  Serial.println("Hi!");
+  // Serial.println("Hi!");
   if (! bme.performReading()) {
     tft.println("Failed to perform reading :(");
     return;
@@ -155,7 +169,9 @@ void printTime() {
   tft.setTextColor(ILI9341_WHITE); tft.setTextSize(5);
   tft.setCursor(0, 0);
   struct tm timeinfo;
-  getLocalTime(&timeinfo, 0);
+  if(!getLocalTime(&timeinfo)){
+    Serial.println("Failed to obtain time");
+  }
   tft.println(&timeinfo, "%H:%M");
 }
 
@@ -265,7 +281,7 @@ void updateBrightness(bool increase) {
 
 void updateBrightnessText() {
   tft.fillRect(tft.width() / 2, tft.height() / 3, tft.width() / 2, tft.height() / 3, ILI9341_BLACK);
-  tft.setCursor(tft.width() / 4 * 3, tft.height()/3 * 2);
+  tft.setCursor(tft.width() / 4 * 3, tft.height()/2);
   tft.setTextColor(ILI9341_WHITE); 
   tft.setTextSize(5);
   tft.println(lightBrightness);
